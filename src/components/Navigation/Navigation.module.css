@@ -1,0 +1,18 @@
+.navigationContainer {
+  display: flex;
+  gap: 10px;
+}
+.navLink {
+  text-decoration: none;
+  color: rgba(53, 57, 52, 0.642);
+  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.active {
+  color: rgba(171, 239, 206, 0.963);
+}
+.navLink:hover {
+  color: rgba(171, 239, 206, 0.963);
+}
+.navLink:focus {
+  color: rgba(171, 239, 206, 0.963);
+}

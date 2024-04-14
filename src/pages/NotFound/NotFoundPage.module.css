@@ -1,0 +1,22 @@
+.notFoundPageTitle {
+  font-weight: 700;
+  font-size: 20px;
+}
+.notFoundPageText {
+  font-weight: 500;
+  font-size: 16px;
+}
+.link {
+  padding: 5px;
+  text-decoration: none;
+  color: rgba(53, 57, 52, 0.642);
+  background-color: rgb(181, 140, 27);
+  border-radius: 4px;
+  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link:hover {
+  color: rgba(10, 3, 83, 0.963);
+}
+.link:focus {
+  color: rgba(10, 3, 83, 0.963);
+}

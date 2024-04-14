@@ -1,0 +1,12 @@
+.castList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.castPhoto {
+  width: 100px;
+  height: 150px;
+}
+.castItem {
+  border-bottom: 1px solid rgb(152, 173, 140);
+}

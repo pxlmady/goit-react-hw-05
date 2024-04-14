@@ -1,0 +1,53 @@
+.movieCard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+.movieCardFeatures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 5px;
+  list-style: none;
+}
+.movieCardImage {
+  width: 200px;
+  height: 300px;
+}
+.additionalInfoList {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 15px;
+}
+.movieTitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 26px;
+}
+.movieFeatureTitle {
+  margin: 0;
+  font-weight: 650;
+  font-size: 20px;
+}
+.movieFeatureDescription {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+.backLink {
+  display: inline-block;
+  margin: 5px 0px;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: rgb(6, 186, 111);
+  color: rgba(30, 34, 28, 0.642);
+  text-align: center;
+  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backLink:hover {
+  color: rgba(171, 239, 206, 0.963);
+}
+.backLink:focus {
+  color: rgba(171, 239, 206, 0.963);
+}
