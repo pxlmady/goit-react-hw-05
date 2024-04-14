@@ -9,7 +9,6 @@
   margin-left: auto;
   flex-direction: raw;
   justify-content: center;
-  border: solid 2px rgba(37, 111, 35, 0.644);
   border-radius: 8px;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -18,21 +17,19 @@
   width: 350px;
   border: none;
   border-radius: 8px;
-  background: rgba(214, 232, 213, 0.644);
+  background: white;
   display: block;
   font-size: 16px;
   font-weight: 500;
 }
 .searchBar Input:focus {
-  background: rgba(188, 239, 186, 0.644);
   outline: none;
 }
 .searchBar Button {
   border-radius: 8px;
   height: 40px;
-  background: #289f1bab;
+  background: #b2b4b7;
   padding: 8px 16px;
-  border: solid 1px rgb(141, 179, 181);
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -44,10 +41,10 @@
   border: transparent;
 }
 .searchBar Button:hover {
-  background: #03562e;
+  background: #b2b4b75c;
 }
 .searchBar Button:focus {
-  background: #03562e;
+  background: #b2b4b75c;
   outline: none;
 }
 .pageNumber {
